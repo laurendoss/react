@@ -1,13 +1,13 @@
 
 import './App.css';
-import Layout from '../src/Layout'
+import List from './Components/List'
+import 'rsuite/dist/styles/rsuite-default.css';
+
 
 const App = () => {
   return (
     <div className="App">
-      <Layout>
-        React App
-      </Layout>
+      <List />
     </div>
   );
 }
